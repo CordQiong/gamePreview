@@ -2,7 +2,7 @@
     "CocosEngine": "3.8.4",
     "engine": {
         "debug": true,
-        "platform": "web-desktop",
+        "platform": "web-mobile",
         "customLayers": [
             {
                 "name": "Map",
@@ -69,12 +69,13 @@
         "launchScene": "db://assets/Scene/ui.scene"
     },
     "screen": {
-        "exactFitScreen": false,
+        "exactFitScreen": true,
         "designResolution": {
             "width": 750,
             "height": 1335,
-            "policy": 4
-        }
+            "policy": 2
+        },
+        "orientation": "auto"
     },
     "rendering": {
         "renderPipeline": "",
